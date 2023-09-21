@@ -30,19 +30,19 @@
     <dependency>
       <groupId>io.cucumber</groupId>
       <artifactId>cucumber-java</artifactId>
-      <version>4.2.6</version>
+      <version>7.14.0</version>
       <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>io.cucumber</groupId>
       <artifactId>cucumber-junit</artifactId>
-      <version>4.2.6</version>
+      <version>7.14.0</version>
       <scope>test</scope>
     </dependency>
 	<dependency>
 	  <groupId>io.cucumber</groupId>
       <artifactId>cucumber-java8</artifactId>
-      <version>4.2.6</version>
+      <version>7.14.0</version>
 	</dependency>
     <dependency>
       <groupId>org.assertj</groupId>
@@ -162,7 +162,7 @@
     <pluginRepository>
       <id>org.squashtest.plugins.release</id>
       <name>squashtest.org</name>
-      <url>http://repo.squashtest.org/maven2/releases</url>
+      <url>https://nexus.squashtest.org/nexus/repository/maven-squashtest-public-releases/</url>
       <snapshots>
         <enabled>false</enabled>
       </snapshots>
